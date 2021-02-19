@@ -1,9 +1,36 @@
+:root {
+  --teal: #22c1c3;
+  --red: #fd2d2d;
+  --lightgray: #ededed;
+  --linkcolor: #1c1c1c;
+  --linkhover: #4d3d3d;
+  --smallFont: 0.95rem;
+  --normalFont: 1.1rem;
+  --postBgColor: #d9ffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.75rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: var(--normalFont);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -11,6 +38,7 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+p {
+  margin: 0;
+  padding: 0;
 }

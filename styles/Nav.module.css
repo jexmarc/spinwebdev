@@ -1,0 +1,12 @@
+.navwrap {
+  padding: 1rem;
+}
+
+.link {
+  color: var(--linkcolor);
+  margin-left: 1rem;
+}
+
+.link:hover {
+  color: var(--linkhover);
+}

@@ -1,0 +1,22 @@
+.postwrap {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: var(--postBgColor);
+  border-top: 1px solid var(--teal);
+  border-bottom: 1px solid var(--red);
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.title {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  padding-bottom: 1rem;
+  color: darkred;
+}

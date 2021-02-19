@@ -1,0 +1,55 @@
+.headwrap {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 180px;
+  background: linear-gradient(328deg, var(--teal) 0%, var(--red) 100%);
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 48%,
+    90% 31%,
+    80% 48%,
+    67% 29%,
+    57% 48%,
+    41% 28%,
+    28% 48%,
+    0 48%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 50%,
+    95% 40%,
+    90% 50%,
+    85% 40%,
+    80% 50%,
+    75% 40%,
+    70% 50%,
+    65% 40%,
+    60% 50%,
+    33% 40%,
+    0 50%
+  );
+}
+
+.header1 {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 2rem;
+  text-decoration: overline;
+  color: var(--linkcolor);
+}
+
+.spintext {
+  display: inline-block;
+  transform: rotate(-10deg);
+  text-decoration: underline;
+  color: var(--linkcolor);
+}
+.devtext {
+  display: inline-block;
+  transform: rotate(10deg);
+  text-decoration: underline;
+  color: var(--linkcolor);
+}

@@ -1,0 +1,7 @@
+.main {
+  position: relative;
+  margin: -5.75rem 2rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: 75% 24%;
+  gap: 1.25rem;
+}
