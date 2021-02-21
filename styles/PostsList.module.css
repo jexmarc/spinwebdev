@@ -14,9 +14,29 @@
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+.herowrap {
+  display: flex;
+  float: left;
+  margin-right: 1rem;
+}
+
+.herowrap img {
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
 .title {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
   color: darkred;
+}
+
+.postwrap h4 {
+  color: var(--teal);
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }

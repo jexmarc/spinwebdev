@@ -1,54 +1,6 @@
 .container {
+  height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
-}
-
-.spinhand {
-  position: fixed;
-  left: 40%;
-  bottom: 0;
-  margin-bottom: -340px;
-  margin-top: inherit;
-  transition: margin-bottom 0.3s ease-in-out;
-}
-
-.engaged {
-  position: fixed;
-  left: 40%;
-  bottom: 0;
-  margin-bottom: -5px;
-}
-
-.webline {
-  position: fixed;
-  bottom: 250px;
-  left: calc(40% + 100px);
-  background-color: black;
-  width: 6px;
-  height: 0vh;
-  z-index: 3;
-  margin-top: inherit;
-  transition: height 0.3s ease-in-out;
-  transition: bottom 0.4s ease-out;
-}
-
-.shootweb {
-  height: 33vh;
-}
-.webgrab {
-  position: fixed;
-  left: calc(40% + 90px);
-  bottom: 600px;
-  font-size: 3rem;
-  letter-spacing: -50px;
-  opacity: 0;
-  margin-top: inherit;
-  transition: opacity 0.2s ease-in-out 0.3s;
-  transition: bottom 0.4s ease-out;
-}
-.webgrab span {
-  font-size: 4rem;
-}
-.webgrab-engage {
-  opacity: 1;
 }

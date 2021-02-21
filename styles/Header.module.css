@@ -3,7 +3,7 @@
   justify-content: space-around;
   width: 100vw;
   height: 180px;
-  background: linear-gradient(328deg, var(--teal) 0%, var(--red) 100%);
+  background: var(--headerGradient);
   -webkit-clip-path: polygon(
     0% 0%,
     100% 0%,
@@ -35,21 +35,24 @@
 
 .header1 {
   display: inline-block;
-  padding: 1rem;
-  font-size: 2rem;
-  text-decoration: overline;
-  color: var(--linkcolor);
 }
 
 .spintext {
   display: inline-block;
-  transform: rotate(-10deg);
+  /* transform: rotate(-10deg); */
   text-decoration: underline;
+  color: var(--linkcolor);
+}
+.webtext {
+  display: inline-block;
+  text-decoration: overline;
+  padding: 1.2rem 0.5rem;
+  font-size: 2rem;
   color: var(--linkcolor);
 }
 .devtext {
   display: inline-block;
-  transform: rotate(10deg);
+  /* transform: rotate(10deg); */
   text-decoration: underline;
   color: var(--linkcolor);
 }

@@ -1,3 +1,6 @@
 .header2 {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   margin-top: 4rem;
+  color: var(--red);
 }

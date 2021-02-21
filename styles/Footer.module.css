@@ -1,11 +1,13 @@
 .footer {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: center;
   align-items: center;
   font-size: var(--smallFont);
   bottom: 0;
   width: 100vw;
-  height: 100px;
+  height: 60px;
   background-color: var(--teal);
+  box-shadow: var(--postBgColor) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
